@@ -1,0 +1,19 @@
+#navbar{
+    background-color:black;
+    position:sticky;
+    top:0px;
+}
+#brand{
+    font-size:30px;
+    background-clip:text;
+    color:transparent;
+}
+.navbar-nav{
+    width: -webkit-fill-available;
+    justify-content: end;
+}
+#navigation{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
