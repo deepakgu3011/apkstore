@@ -67,7 +67,7 @@ const ApkUploadForm = () => {
       };
 
       // Send data as JSON to the PHP script
-      const response = await fetch("https://apkstores.rf.gd", {
+      const response = await fetch("https://apkstores.rf.gd/index.php", {
         method: "POST",
         headers: {
           Accept: "application/json", // Ensuring server responds with JSON
